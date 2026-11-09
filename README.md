@@ -120,9 +120,24 @@ Keys: [Mistral](https://console.mistral.ai), [Google AI Studio](https://aistudio
 { "voice": { "provider": "google", "slug": "Kore", "strict": true } }
 ```
 
+### Direct TTS CLI
+
+Synthesize a single clip without rendering a video:
+
+```bash
+python src/tts_cli.py --provider google --text "Hello from Gemini." \
+  --output temp/gemini.wav --voice Kore --strict
+```
+
+`--provider` defaults to `TTS_PROVIDER` (Mistral if unset). `--output`
+defaults to `output/tts.<format>`; a missing extension is added, and a
+mismatched one is rejected. Use `--format mp3|wav` where supported and
+`--list-providers` to print the choices.
+
 ## Files
 
 - `src/render.py` — spec → MP4 renderer (MoviePy + Matplotlib)
+- `src/tts_cli.py` — one-shot TTS CLI (provider / text / output)
 - `src/tts.py` — TTS provider dispatch + Mistral/Google/ElevenLabs/fal adapters
 - `src/schema.json` — JSON Schema for the spec
 - `src/themes/presets.py` — dark/light color presets
