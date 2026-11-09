@@ -1,0 +1,11 @@
+{
+  "meta": { "fps": 24, "tts": { "provider": "elevenlabs" } },
+  "timeline": [
+    {
+      "type": "title",
+      "text": "ElevenLabs TTS",
+      "subtitle": "free-tier default voice",
+      "narration": "Hello from ElevenLabs."
+    }
+  ]
+}

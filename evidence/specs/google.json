@@ -1,0 +1,12 @@
+{
+  "meta": { "fps": 24, "tts": { "provider": "google", "style": "calm and friendly" } },
+  "voice": { "slug": "Kore" },
+  "timeline": [
+    {
+      "type": "title",
+      "text": "Google Gemini TTS",
+      "subtitle": "Gemini 3.8 Flash TTS",
+      "narration": "Hello from Google."
+    }
+  ]
+}

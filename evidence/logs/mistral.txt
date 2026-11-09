@@ -1,0 +1,4 @@
+[voice] using 'gb_jane_neutral'
+[scene 0] title: 2.04s starting at 0.00s (narration 1.04s)
+[done] temp/evidence-render/mistral.mp4 (2.0s at 24fps)
+[done] temp\evidence-render\mistral.pptx (1 slides)

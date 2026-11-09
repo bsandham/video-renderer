@@ -1,0 +1,17 @@
+test_default_mp3_and_explicit_wav (test_tts_providers.ElevenLabsTests.test_default_mp3_and_explicit_wav) ... ok
+test_cache_key_uses_provider_voice_and_strict (test_tts_providers.ErrorAndCacheTests.test_cache_key_uses_provider_voice_and_strict) ... ok
+test_missing_key (test_tts_providers.ErrorAndCacheTests.test_missing_key) ... ok
+test_eleven_and_gemini_payloads (test_tts_providers.FalTests.test_eleven_and_gemini_payloads) ... ok
+test_env_voice (test_tts_providers.GoogleTests.test_env_voice) ... ok
+test_interactions_payload_and_wav (test_tts_providers.GoogleTests.test_interactions_payload_and_wav) ... ok
+test_strict_requires_voice (test_tts_providers.GoogleTests.test_strict_requires_voice) ... ok
+test_strict_vs_fallback (test_tts_providers.MistralTests.test_strict_vs_fallback) ... ok
+test_provider_formats_and_voice_env (test_tts_providers.ResolutionTests.test_provider_formats_and_voice_env) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.529s
+
+OK
+[warn] voice 'bad' rejected, trying next
+[warn] voice 'bad' rejected, trying next
+[voice] using 'gb_jane_neutral'

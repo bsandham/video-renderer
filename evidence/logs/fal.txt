@@ -1,0 +1,3 @@
+[scene 0] title: 2.96s starting at 0.00s (narration 1.96s)
+[done] temp/evidence-render/fal.mp4 (3.0s at 24fps)
+[done] temp\evidence-render\fal.pptx (1 slides)

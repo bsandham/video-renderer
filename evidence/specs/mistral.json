@@ -1,0 +1,12 @@
+{
+  "meta": { "fps": 24, "tts": { "provider": "mistral" } },
+  "voice": { "slug": "gb_jane_neutral" },
+  "timeline": [
+    {
+      "type": "title",
+      "text": "Mistral Voxtral",
+      "subtitle": "TTS provider evidence",
+      "narration": "Hello from Mistral."
+    }
+  ]
+}

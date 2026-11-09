@@ -1,0 +1,3 @@
+[scene 0] title: 2.60s starting at 0.00s (narration 1.60s)
+[done] temp/evidence-render/google.mp4 (2.6s at 24fps)
+[done] temp\evidence-render\google.pptx (1 slides)

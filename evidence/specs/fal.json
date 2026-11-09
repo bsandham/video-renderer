@@ -1,0 +1,15 @@
+{
+  "meta": { "fps": 24, "tts": { "provider": "fal" } },
+  "voice": {
+    "model": "fal-ai/elevenlabs/tts/eleven-v3",
+    "slug": "Rachel"
+  },
+  "timeline": [
+    {
+      "type": "title",
+      "text": "fal.ai TTS",
+      "subtitle": "Eleven v3 via fal",
+      "narration": "Hello from fal."
+    }
+  ]
+}
