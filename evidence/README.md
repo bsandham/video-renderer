@@ -22,6 +22,6 @@ python3 src/render.py evidence/specs/<provider>.json \
   -o temp/evidence-render/<provider>.mp4
 ```
 
-Full MP4/PPTX outputs were rendered and decoded locally but are not committed, to keep the PR small. The committed screenshots, MP3/WAV narration, and render logs are the evidence. `logs/tests.txt` is the full 9-test mocked-provider suite output.
+Full MP4/PPTX outputs were rendered and decoded locally but are not committed, to keep the PR small. The committed screenshots, MP3/WAV narration, and render logs are the evidence. `logs/tests.txt` is the full 13-test mocked-provider-and-CLI suite output.
 
 Both video and narration files were decoded with MoviePy before extraction. No API keys are present in this directory.

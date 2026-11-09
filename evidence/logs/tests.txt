@@ -1,3 +1,13 @@
+test_forwards_arguments_and_adds_extension (test_tts_cli.CliTests.test_forwards_arguments_and_adds_extension) ... ok
+test_list_providers (test_tts_cli.CliTests.test_list_providers) ... ok
+test_rejects_extension_mismatch (test_tts_cli.CliTests.test_rejects_extension_mismatch) ... error: output extension '.mp3' does not match the wav format; use '.wav' or omit the extension
+ok
+test_text_required (test_tts_cli.CliTests.test_text_required) ... usage: tts_cli.py [-h] [--provider {mistral,google,elevenlabs,fal}]
+                  [--text TEXT] [-o OUTPUT] [--voice VOICE] [--voice-id ID]
+                  [--model MODEL] [--format {mp3,wav}] [--style STYLE]
+                  [--strict] [--list-providers]
+tts_cli.py: error: --text is required (or use --list-providers)
+ok
 test_default_mp3_and_explicit_wav (test_tts_providers.ElevenLabsTests.test_default_mp3_and_explicit_wav) ... ok
 test_cache_key_uses_provider_voice_and_strict (test_tts_providers.ErrorAndCacheTests.test_cache_key_uses_provider_voice_and_strict) ... ok
 test_missing_key (test_tts_providers.ErrorAndCacheTests.test_missing_key) ... ok
@@ -9,9 +19,10 @@ test_strict_vs_fallback (test_tts_providers.MistralTests.test_strict_vs_fallback
 test_provider_formats_and_voice_env (test_tts_providers.ResolutionTests.test_provider_formats_and_voice_env) ... ok
 
 ----------------------------------------------------------------------
-Ran 9 tests in 0.529s
+Ran 13 tests in 0.598s
 
 OK
+wrote: wrote [google / wav]
 [warn] voice 'bad' rejected, trying next
 [warn] voice 'bad' rejected, trying next
 [voice] using 'gb_jane_neutral'
